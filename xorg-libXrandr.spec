@@ -1,7 +1,7 @@
 Summary:	X Randr extension library
 Name:		xorg-libXrandr
 Version:	1.4.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/lib/libXrandr-%{version}.tar.bz2
@@ -67,7 +67,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libXrandr.so
-%{_libdir}/libXrandr.la
 %{_includedir}/X11/extensions/*.h
 %{_pkgconfigdir}/xrandr.pc
 %{_mandir}/man3/*.3x*
